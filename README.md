@@ -1,7 +1,8 @@
 # listview
 listview的优化_加载一种布局
    
-   @Override
+  
+     @Override
       public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder1 viewHolder1=null;
           if(convertView==null){
